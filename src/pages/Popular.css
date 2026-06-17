@@ -1,0 +1,29 @@
+.popular-container {
+  padding: 30px;
+}
+
+.popular-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.popular-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .popular-container {
+    padding: 20px;
+  }
+
+  .popular-title {
+    font-size: 28px;
+  }
+
+  .popular-grid {
+    grid-template-columns: 1fr;
+  }
+}

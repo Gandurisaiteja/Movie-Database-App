@@ -1,0 +1,13 @@
+.cast-card {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cast-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}

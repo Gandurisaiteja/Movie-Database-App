@@ -1,0 +1,29 @@
+.search-container {
+  padding: 30px;
+}
+
+.search-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.search-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .search-container {
+    padding: 20px;
+  }
+
+  .search-title {
+    font-size: 28px;
+  }
+
+  .search-grid {
+    grid-template-columns: 1fr;
+  }
+}

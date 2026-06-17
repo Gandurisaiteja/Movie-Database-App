@@ -1,0 +1,29 @@
+.toprated-container {
+  padding: 30px;
+}
+
+.toprated-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.toprated-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .toprated-container {
+    padding: 20px;
+  }
+
+  .toprated-title {
+    font-size: 28px;
+  }
+
+  .toprated-grid {
+    grid-template-columns: 1fr;
+  }
+}
